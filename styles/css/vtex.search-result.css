@@ -652,8 +652,8 @@
 
 @media (min-width: 1050px) {
   .orderByButton {
-    margin-left: -32px;
-    width: 110% !important;
+    margin-left: -40px;
+    width: 115% !important;
   }
 }
 
@@ -674,7 +674,7 @@
 @media (min-width: 1800px) {
   .orderByButton {
     margin-left: 150px;
-    width: 60% !important;
+    width: 62% !important;
   }
 }
 

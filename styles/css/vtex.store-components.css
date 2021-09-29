@@ -624,7 +624,6 @@
 .infoCardCallActionText--BannerDos {
   color: #191531;
   text-decoration: none;
-  padding-top: 6px;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
@@ -1885,11 +1884,9 @@
   content: '';
   width: 25px;
   height: 25px;
-  background: url(https://sikaco.vteximg.com.br/arquivos/icon-entrada.png);
+  background: url(https://sikaco.vteximg.com.br/arquivos/icon-entrada.png) no-repeat;
   display: block;
-  position: absolute;
-  left: 36px;
-  margin: -5px -5px;
+  margin-right: 10px;
   background-size: 100%;
 }
 .infoCardHeadline--BannerDos {
@@ -2222,7 +2219,9 @@
 }
 .infoCardCallActionText--BannerDos {
   font-family: 'KLAVIKA';
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .infoCardHeadline--bannernewws {
   font-family: 'Klavika-light';
@@ -3123,9 +3122,6 @@
   .infoCardContainer--LogoFooter {
     width: 89%;
   }
-  .infoCardCallActionText--BannerDos::before {
-    left: 15px;
-  }
   .infoCardImageContainer--segundo::before {
     height: 21%;
   }
@@ -3153,7 +3149,10 @@
   .infoCardCallActionText--BannerDos {
     font-size: 12px;
     text-align: end;
-    padding-right: 20px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .infoCardContainer--LogoFooter {
@@ -3296,3 +3295,7 @@
 
 
 /* / Styles for colors */
+
+.infoCardImage--Mio {
+  height: 100%;
+}
