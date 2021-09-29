@@ -38,3 +38,21 @@
         padding: 0;
     }
 }
+
+.addressList :global(.flex span.t-heading-4){
+    width: 0;
+    font-size: 0;
+}
+
+.addressList :global(.flex span.t-heading-4::before){
+    content: "Usted no tiene ninguna dirección registrada";
+    font-size: 1.5rem;
+}
+
+.menu ~ :global(.flex .vtex-account__page-body.vtex-account__cards-list .flex span.t-heading-4){
+    font-size: 0;
+}
+.menu ~ :global(.flex .vtex-account__page-body.vtex-account__cards-list .flex span.t-heading-4::before){
+    content: "¡Aún no tiene ningún método de pago registrado!";
+    font-size: 1.5rem;
+}

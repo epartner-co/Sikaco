@@ -19,6 +19,10 @@
 }
 .filterPopupTitle {
   font-size: 12px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .orderByText {
   border: 0;
@@ -31,6 +35,7 @@
   font-size: 12px;
   margin-right: 10px;
   line-height: 30px;
+  width: 50%;
 }
 .orderByText::after {
   content: ':';
