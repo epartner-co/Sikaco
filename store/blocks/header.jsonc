@@ -57,7 +57,7 @@
       "fullWidth": false,
       "blockClass": "headerC"
     },
-    "children": ["flex-layout.col#logo-desktop", "flex-layout.col#headerbuscador", "rich-text#misPedidos", "login", "minicart.v2"]
+    "children": ["flex-layout.col#logo-desktop", "flex-layout.col#headerbuscador"/*, "rich-text#misPedidos"*/, "login", "minicart.v2"]
   },
   "flex-layout.col#search-bar": {
     "props": {
@@ -1098,7 +1098,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://sikaco.myvtex.com/arquivos/logosikaclaimhorizontal.png",
+      "url": "https://sikaco.myvtex.com/arquivos/logo-sika-largo-frase.png",
       "width": "350",
       "blockClass": "logoImg"
     }
@@ -1110,7 +1110,7 @@
     "children": [/*"flex-layout.row#contactoM",*/ "flex-layout.row#mobile", "flex-layout.row#PreMobile"]
   },
   "flex-layout.row#mobile": {
-    "children": ["logo", "modal-trigger#1localizador","login", "rich-text#misPedidos", "minicart.v2"],
+    "children": ["logo", "modal-trigger#1localizador","login" /*, "rich-text#misPedidos"*/, "minicart.v2"],
     "props": {
       "blockClass": "main-header-mobile",
       "verticalAlign": "center",

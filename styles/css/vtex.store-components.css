@@ -640,7 +640,10 @@
   padding: 25px 8px 25px 26px;
 }
 .logoImage {
-  width: 95px;
+  width: 300px;
+  height: 100px;
+  object-fit: contain;
+  transform: translateX(-5px);
 }
 .infoCardImage--textfool2 {
   width: 66%;
@@ -2317,35 +2320,18 @@
 }
 
 @media (max-width: 600px) {
-.infoCardContainer--bannernewws {
-  background: url("https://sikaco.vteximg.com.br/arquivos/Rectangle%20105.png") !important;
+  .infoCardContainer--bannernewws {
+    background: url('https://sikaco.vteximg.com.br/arquivos/Rectangle%20105.png') !important;
+  }
+  .infoCardTextContainer--bannernewws {
+    margin: 6%;
+  }
 }
-.infoCardTextContainer--bannernewws {
-  margin: 6%;
-}
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 600px)  {
+@media (max-width: 600px) {
+  .logoLink--logoImg{
+    width: 220px;
+  }
   .imageElement--BannerPagosD {
     display: none;
   }
@@ -2676,7 +2662,7 @@
     padding: 10px 0 0 30px;
     background: #f5b325;
     height: 140px;
-    margin-top: 100px
+    margin-top: 100px;
   }
   .infoCardHeadline--Mio {
     font-size: 26px;
@@ -2859,157 +2845,145 @@
   }
   .infoCardTextContainer--Mio {
     margin-top: 100px !important;
-}
- .infoCardTextContainer--BannerDosUno {
+  }
+  .infoCardTextContainer--BannerDosUno {
     text-align: center;
     /* justify-content: center; */
-}
- .infoCardCallActionContainer--BannerDosUno {
+  }
+  .infoCardCallActionContainer--BannerDosUno {
     text-align: center;
-}
- .infoCardCallActionContainer--BannerDosUno {
+  }
+  .infoCardCallActionContainer--BannerDosUno {
     text-align: center;
-}
+  }
   .infoCardCallActionText--BannerDos {
     text-align: center;
-}
-.infoCardContainer--bannerInformativo:hover .infoCardCallActionText--bannerInformativo {
-  font-size: 12px !important;
-}
-.infoCardContainer--bannerInformativo1:hover .infoCardCallActionText--bannerInformativo1 {
-  font-size: 12px !important;
-}
-.infoCardContainer--bannerInformativo2:hover .infoCardCallActionText--bannerInformativo2 {
-  font-size: 12px !important;
-}
-.infoCardContainer--bannerInformativo3:hover .infoCardCallActionText--bannerInformativo3 {
-  font-size: 12px !important;
-}
-.infoCardContainer--bannerInformativo4:hover .infoCardCallActionText--bannerInformativo4 {
-  font-size: 12px !important;
-}
-.infoCardContainer--bannerInformativo5:hover .infoCardCallActionText--bannerInformativo5 {
-  font-size: 12px !important;
-}
-.infoCardImageContainer--segundo {
-  width: 100%;
-}
-.infoCardSubhead--segundo {
-  width: 100%;
-}
-.infoCardTextContainer--segundo {
-  width: 100%;
-}
-.infoCardHeadline--Mio {
-  line-height: 19px;
-}
-.infoCardTextContainer--segundo {
-  height: 266px;
-}
-/*
+  }
+  .infoCardContainer--bannerInformativo:hover .infoCardCallActionText--bannerInformativo {
+    font-size: 12px !important;
+  }
+  .infoCardContainer--bannerInformativo1:hover .infoCardCallActionText--bannerInformativo1 {
+    font-size: 12px !important;
+  }
+  .infoCardContainer--bannerInformativo2:hover .infoCardCallActionText--bannerInformativo2 {
+    font-size: 12px !important;
+  }
+  .infoCardContainer--bannerInformativo3:hover .infoCardCallActionText--bannerInformativo3 {
+    font-size: 12px !important;
+  }
+  .infoCardContainer--bannerInformativo4:hover .infoCardCallActionText--bannerInformativo4 {
+    font-size: 12px !important;
+  }
+  .infoCardContainer--bannerInformativo5:hover .infoCardCallActionText--bannerInformativo5 {
+    font-size: 12px !important;
+  }
+  .infoCardImageContainer--segundo {
+    width: 100%;
+  }
+  .infoCardSubhead--segundo {
+    width: 100%;
+  }
+  .infoCardTextContainer--segundo {
+    width: 100%;
+  }
+  .infoCardHeadline--Mio {
+    line-height: 19px;
+  }
+  .infoCardTextContainer--segundo {
+    height: 266px;
+  }
+  /*
 .suffixWrapper {
   margin: auto -3px auto -17px;
 }*/
-.infoCardCallActionText--marcas-icon1, .infoCardCallActionText--marcas-icon2, .infoCardCallActionText--marcas-icon3, .infoCardCallActionText--marcas-icon4, .infoCardCallActionText--marcas-icon5, .infoCardCallActionText--marcas-icon6, .infoCardCallActionText--marcas-icon7, .infoCardCallActionText--marcas-icon8, .infoCardCallActionText--marcas-icon9, .infoCardCallActionText--marcas-icon10, .infoCardCallActionText--marcas-icon11, .infoCardCallActionText--marcas-icon12, .infoCardCallActionText--marcas-icon13, .infoCardCallActionText--marcas-icon14 {
-  margin-left: 0 !important;
-  width: 100% !important;
+  .infoCardCallActionText--marcas-icon1,
+  .infoCardCallActionText--marcas-icon2,
+  .infoCardCallActionText--marcas-icon3,
+  .infoCardCallActionText--marcas-icon4,
+  .infoCardCallActionText--marcas-icon5,
+  .infoCardCallActionText--marcas-icon6,
+  .infoCardCallActionText--marcas-icon7,
+  .infoCardCallActionText--marcas-icon8,
+  .infoCardCallActionText--marcas-icon9,
+  .infoCardCallActionText--marcas-icon10,
+  .infoCardCallActionText--marcas-icon11,
+  .infoCardCallActionText--marcas-icon12,
+  .infoCardCallActionText--marcas-icon13,
+  .infoCardCallActionText--marcas-icon14 {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  .infoCardContainer--bannerInformativo .infoCardTextContainer--bannerInformativo {
+    background: #f5b325;
+  }
+  .infoCardContainer--bannerInformativo .infoCardCallActionText--bannerInformativo {
+    display: block;
+    font-family: 'KLAVIKA';
+    line-height: 21px;
+  }
+  .infoCardContainer--bannerInformativo1 .infoCardTextContainer--bannerInformativo1 {
+    background: #f5b325;
+  }
+  .infoCardContainer--bannerInformativo1 .infoCardCallActionText--bannerInformativo1 {
+    display: block;
+    font-family: 'KLAVIKA';
+    line-height: 21px;
+  }
+
+  .infoCardContainer--bannerInformativo2 .infoCardTextContainer--bannerInformativo2 {
+    background: #f5b325;
+  }
+  .infoCardContainer--bannerInformativo2 .infoCardCallActionText--bannerInformativo2 {
+    display: block;
+    font-family: 'KLAVIKA';
+    line-height: 21px;
+  }
+
+  .infoCardContainer--bannerInformativo3 .infoCardTextContainer--bannerInformativo3 {
+    background: #f5b325;
+  }
+  .infoCardContainer--bannerInformativo3 .infoCardCallActionText--bannerInformativo3 {
+    display: block;
+    font-family: 'KLAVIKA';
+    line-height: 21px;
+  }
+
+  .infoCardContainer--bannerInformativo4 .infoCardTextContainer--bannerInformativo4 {
+    background: #f5b325;
+  }
+  .infoCardContainer--bannerInformativo4 .infoCardCallActionText--bannerInformativo4 {
+    display: block;
+    font-family: 'KLAVIKA';
+    line-height: 21px;
+  }
+  .infoCardContainer--bannerInformativo5 .infoCardTextContainer--bannerInformativo5 {
+    background: #f5b325;
+  }
+  .infoCardContainer--bannerInformativo5 .infoCardCallActionText--bannerInformativo5 {
+    display: block;
+    font-family: 'KLAVIKA';
+    line-height: 21px;
+  }
+  .infoCardTextContainer--bannerInformativo {
+    width: 94%;
+  }
+  .infoCardTextContainer--bannerInformativo1 {
+    width: 94%;
+  }
+  .infoCardTextContainer--bannerInformativo2 {
+    width: 94%;
+  }
+  .infoCardTextContainer--bannerInformativo3 {
+    width: 94%;
+  }
+  .infoCardTextContainer--bannerInformativo4 {
+    width: 94%;
+  }
+  .infoCardTextContainer--bannerInformativo5 {
+    width: 94%;
+  }
 }
-
-.infoCardContainer--bannerInformativo .infoCardTextContainer--bannerInformativo {
-  background: #f5b325;
-}
-.infoCardContainer--bannerInformativo .infoCardCallActionText--bannerInformativo {
-  display: block;
-  font-family: 'KLAVIKA';
-  line-height: 21px;
-}
-.infoCardContainer--bannerInformativo1 .infoCardTextContainer--bannerInformativo1 {
-  background: #f5b325;
-}
-.infoCardContainer--bannerInformativo1 .infoCardCallActionText--bannerInformativo1 {
-  display: block;
-  font-family: 'KLAVIKA';
-  line-height: 21px;
-}
-
-.infoCardContainer--bannerInformativo2 .infoCardTextContainer--bannerInformativo2 {
-  background: #f5b325;
-}
-.infoCardContainer--bannerInformativo2 .infoCardCallActionText--bannerInformativo2 {
-  display: block;
-  font-family: 'KLAVIKA';
-  line-height: 21px;
-}
-
-.infoCardContainer--bannerInformativo3 .infoCardTextContainer--bannerInformativo3 {
-  background: #f5b325;
-}
-.infoCardContainer--bannerInformativo3 .infoCardCallActionText--bannerInformativo3 {
-  display: block;
-  font-family: 'KLAVIKA';
-  line-height: 21px;
-}
-
-.infoCardContainer--bannerInformativo4 .infoCardTextContainer--bannerInformativo4 {
-  background: #f5b325;
-}
-.infoCardContainer--bannerInformativo4 .infoCardCallActionText--bannerInformativo4 {
-  display: block;
-  font-family: 'KLAVIKA';
-  line-height: 21px;
-}
-.infoCardContainer--bannerInformativo5 .infoCardTextContainer--bannerInformativo5 {
-  background: #f5b325;
-}
-.infoCardContainer--bannerInformativo5 .infoCardCallActionText--bannerInformativo5 {
-  display: block;
-  font-family: 'KLAVIKA';
-  line-height: 21px;
-}
-.infoCardTextContainer--bannerInformativo {
-  width: 94%;
-}
-.infoCardTextContainer--bannerInformativo1 {
-  width: 94%;
-}
-.infoCardTextContainer--bannerInformativo2 {
-  width: 94%;
-}
-.infoCardTextContainer--bannerInformativo3 {
-  width: 94%;
-}
-.infoCardTextContainer--bannerInformativo4 {
-  width: 94%;
-}
-.infoCardTextContainer--bannerInformativo5 {
-  width: 94%;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .infoCardImage--segundo {
   width: 100%;
@@ -3086,7 +3060,7 @@
   .infoCardCallActionText--marcas-icon13,
   .infoCardCallActionText--marcas-icon14 {
     width: 98%;
-    margin: 0 auto
+    margin: 0 auto;
   }
   .infoCardContainer--LogoFooter {
     width: 76%;
@@ -3245,57 +3219,60 @@
 
 /* Styles for colors */
 /* Transparent */
-.skuSelectorItem--transparente{
+.skuSelectorItem--transparente {
   width: 30px;
   height: 30px;
 }
-.skuSelectorItem--transparente :global(.vtex-store-components-3-x-frameAround){
+.skuSelectorItem--transparente :global(.vtex-store-components-3-x-frameAround) {
   background-color: #62626233;
   border-radius: 50%;
 }
-.skuSelectorItem--transparente :global(.vtex-store-components-3-x-skuSelectorItemTextValue){
+.skuSelectorItem--transparente :global(.vtex-store-components-3-x-skuSelectorItemTextValue) {
   font-size: 0;
 }
 /* Negro */
-.skuSelectorItem--negro{
+.skuSelectorItem--negro {
   width: 30px;
   height: 30px;
 }
-.skuSelectorItem--negro :global(.vtex-store-components-3-x-frameAround){
+.skuSelectorItem--negro :global(.vtex-store-components-3-x-frameAround) {
   background-color: #000000d4;
   border-radius: 50%;
 }
-.skuSelectorItem--negro :global(.vtex-store-components-3-x-skuSelectorItemTextValue){
+.skuSelectorItem--negro :global(.vtex-store-components-3-x-skuSelectorItemTextValue) {
   font-size: 0;
 }
 /* Blanco */
-.skuSelectorItem--blanco{
+.skuSelectorItem--blanco {
   width: 30px;
   height: 30px;
 }
-.skuSelectorItem--blanco :global(.vtex-store-components-3-x-frameAround){
+.skuSelectorItem--blanco :global(.vtex-store-components-3-x-frameAround) {
   background-color: #ffffff;
   border-radius: 50%;
 }
-.skuSelectorItem--blanco :global(.vtex-store-components-3-x-skuSelectorItemTextValue){
+.skuSelectorItem--blanco :global(.vtex-store-components-3-x-skuSelectorItemTextValue) {
   font-size: 0;
 }
 /* Gris */
-.skuSelectorItem--gris{
+.skuSelectorItem--gris {
   width: 30px;
   height: 30px;
 }
-.skuSelectorItem--gris :global(.vtex-store-components-3-x-frameAround){
+.skuSelectorItem--gris :global(.vtex-store-components-3-x-frameAround) {
   background-color: #808080;
   border-radius: 50%;
 }
-.skuSelectorItem--gris :global(.vtex-store-components-3-x-skuSelectorItemTextValue){
+.skuSelectorItem--gris :global(.vtex-store-components-3-x-skuSelectorItemTextValue) {
   font-size: 0;
 }
-
 
 /* / Styles for colors */
 
 .infoCardImage--Mio {
   height: 100%;
+}
+
+.productImagesContainer .carouselContainer .carouselGaleryThumbs{
+  width: 15%;
 }

@@ -193,7 +193,7 @@ h3 {
   justify-content: space-between;
   display: flex;
 }
-.formTitle::after {
+/* .formTitle::after {
   content: '';
   background-repeat: no-repeat;
   width: 20px;
@@ -202,7 +202,7 @@ h3 {
   background-size: contain;
   margin-left: 15px;
   background-image: url(https://sikaco.vteximg.com.br/arquivos/Mail_icon_login.png);
-}
+} */
 
 .vtex-button__label.flex.items-center.justify-center.h-100.ph6 {
   background: none;
@@ -268,7 +268,7 @@ h3 {
 }
 
 .emailPasswordOptionBtn :global(.vtex-button) span::after {
-  background-image: url(https://sikaco.vteximg.com.br/arquivos/Google_icon_login.png);
+  background-image: url(https://sikaco.vteximg.com.br/arquivos/Mail_icon_login.png);
 }
 
 .optionsList {
@@ -277,4 +277,12 @@ h3 {
 
 .optionsListItem {
   margin: 0;
+}
+
+.googleOptionBtn {
+  display: none;
+}
+
+.content--loginOptions {
+  border-radius: 10px;
 }
