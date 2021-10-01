@@ -236,27 +236,27 @@
   "tab-list.item#product1": {
     "props": {
       "tabId": "product1",
-      "label": "Especificaciones",
+      "label": "Visión del conjunto",
       "blockClass": "tab--left"
     }
   },
   "tab-list.item#product2": {
     "props": {
       "tabId": "product2",
-      "label": "Caracteristicas",
+      "label": "Detalles del producto",
       "blockClass": "tab--center"
     }
   },
   "tab-list.item#product4": {
     "props": {
       "tabId": "product4",
-      "label": "Adicional"
+      "label": "Aplucación"
     }
   },
   "tab-list.item#product5": {
     "props": {
       "tabId": "product5",
-      "label": "Adicional",
+      "label": "Aplicación",
       "blockClass": "tab--right"
     }
   },

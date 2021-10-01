@@ -69,7 +69,7 @@
   "search-bar": {
     "props": {
       "maxWidth": "100%",
-      "placeholder": "¿Qué estás buscando? Escríbelo aquí"
+      "placeholder": "¿Qué está buscando? Escríbalo aquí"
     }
   },
   "rich-text#misPedidos": {
@@ -2805,7 +2805,7 @@
   "search-bar#Mo": {
     "props": {
       "width": "100%",
-      "placeholder": "¿Qué estás buscando? Escríbelo aquí"
+      "placeholder": "¿Qué está buscando? Escríbalo aquí"
     }
   },
 
@@ -2940,7 +2940,7 @@
   },
   "rich-text#address-header": {
     "props": {
-      "text": "### Selecciona tu ubicación"
+      "text": "### Seleccione su ubicación"
     }
   },
   "modal-content#address": {

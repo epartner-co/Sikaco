@@ -616,13 +616,13 @@
   "tab-list.item#home3": {
     "props": {
       "tabId": "home3",
-      "label": "Estandar"
+      "label": "Obra nueva"
     }
   },
   "tab-list.item#home4": {
     "props": {
       "tabId": "home4",
-      "label": "Industria"
+      "label": "Remodelación"
     }
   },
   "tab-content#home": {
@@ -666,7 +666,7 @@
     "props": {
       "id": "tap",
       "imageUrl": "https://sikaco.vteximg.com.br/arquivos/estandar.png",
-      "headline": "ESTANDAR",
+      "headline": "OBRA NUEVA",
       "isFullModeStyle": false,
       "callToActionUrl": "/hogar",
       "textPosition": "center",
@@ -679,7 +679,7 @@
     "props": {
       "id": "tap",
       "imageUrl": "https://sikaco.vteximg.com.br/arquivos/indutria.png",
-      "headline": "INDUSTRIA",
+      "headline": "REMODELACIÓN",
       "isFullModeStyle": false,
       "callToActionUrl": "/hogar",
       "textPosition": "center",
@@ -946,7 +946,7 @@
     "props": {
       "id": "texting",
       "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%2024.png",
-      "headline": "¿Necesitas personal?",
+      "headline": "¿Necesita personal?",
       "callToActionText": "Buscar contratista",
       "isFullModeStyle": true,
       "callToActionUrl": "#",
@@ -988,7 +988,7 @@
     "props": {
       "id": "texting",
       "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%2023.png",
-      "headline": "¿Requieres ayuda?",
+      "headline": "¿Requiere ayuda?",
       "callToActionText": "Buscar contratista",
       "isFullModeStyle": true,
       "callToActionUrl": "#",
@@ -1026,7 +1026,7 @@
     "props": {
       "id": "texting",
      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%20105.png",
-      "headline": "SUSCRIBETE A NUESTRO NEWSLETTER",
+      "headline": "SUSCRIBIRSE A NUESTRO NEWSLETTER",
       "isFullModeStyle": true,
       "callToActionUrl": "#",
       "textPosition": "left",

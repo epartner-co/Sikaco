@@ -3217,58 +3217,6 @@
   filter: invert(1);
 }
 
-/* Styles for colors */
-/* Transparent */
-.skuSelectorItem--transparente {
-  width: 30px;
-  height: 30px;
-}
-.skuSelectorItem--transparente :global(.vtex-store-components-3-x-frameAround) {
-  background-color: #62626233;
-  border-radius: 50%;
-}
-.skuSelectorItem--transparente :global(.vtex-store-components-3-x-skuSelectorItemTextValue) {
-  font-size: 0;
-}
-/* Negro */
-.skuSelectorItem--negro {
-  width: 30px;
-  height: 30px;
-}
-.skuSelectorItem--negro :global(.vtex-store-components-3-x-frameAround) {
-  background-color: #000000d4;
-  border-radius: 50%;
-}
-.skuSelectorItem--negro :global(.vtex-store-components-3-x-skuSelectorItemTextValue) {
-  font-size: 0;
-}
-/* Blanco */
-.skuSelectorItem--blanco {
-  width: 30px;
-  height: 30px;
-}
-.skuSelectorItem--blanco :global(.vtex-store-components-3-x-frameAround) {
-  background-color: #ffffff;
-  border-radius: 50%;
-}
-.skuSelectorItem--blanco :global(.vtex-store-components-3-x-skuSelectorItemTextValue) {
-  font-size: 0;
-}
-/* Gris */
-.skuSelectorItem--gris {
-  width: 30px;
-  height: 30px;
-}
-.skuSelectorItem--gris :global(.vtex-store-components-3-x-frameAround) {
-  background-color: #808080;
-  border-radius: 50%;
-}
-.skuSelectorItem--gris :global(.vtex-store-components-3-x-skuSelectorItemTextValue) {
-  font-size: 0;
-}
-
-/* / Styles for colors */
-
 .infoCardImage--Mio {
   height: 100%;
 }

@@ -771,7 +771,7 @@
   },
   "rich-text#footersiguinos": {
     "props": {
-      "text": "[Siguenos en:](#)",
+      "text": "[Siganos en:](#)",
       "textAlignment": "center",
       "font": "t-heading-3",
       "textPosition": "center",
