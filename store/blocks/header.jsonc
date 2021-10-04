@@ -1046,7 +1046,7 @@
       "fullWidth": false,
       "blockClass": "headerCate"
     },
-    "children": ["rich-text#Category1", "rich-text#Category2", "rich-text#Category3", "rich-text#Category4"]
+    "children": ["rich-text#Category1", "rich-text#Category2", "rich-text#Category3"/*, "rich-text#Category4" */]
   },
   "rich-text#Category1": {
     "props": {
@@ -1060,7 +1060,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[Hogar](/Hogar)",
+      "text": "[Obra nueva](#)",
       "blockClass": "CategoriaPrin2"
     }
   },
@@ -1068,7 +1068,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[Industria](/Industria)",
+      "text": "[Remodelación](#)",
       "blockClass": "CategoriaPrin3"
     }
   },

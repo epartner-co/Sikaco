@@ -2831,12 +2831,12 @@
     font-size: 10px;
   }
   .infoCardContainer--Logored-face {
-    background-size: 37% !important;
+    background-size: 25% !important;
     margin-left: -52px;
   }
   .infoCardContainer--Logored-insta {
-    background-size: 50% !important;
-    margin-left: -125px;
+    background-size: 35% !important;
+    margin-left: -185px;
   }
   .resultsList {
     margin: -4px 0 0 0;
