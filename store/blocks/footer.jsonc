@@ -3,7 +3,7 @@
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
   "footer-layout.desktop": {
-    "children": ["flex-layout.row#footerD", "flex-layout.row#redes", "flex-layout.row#MiniMenu", "rich-text#footerCopy"]
+    "children": ["flex-layout.row#footerD", "flex-layout.row#redes", "flex-layout.row#MiniMenu"]
   },
   "footer-layout.mobile": {
     "children": [
@@ -16,8 +16,7 @@
       "disclosure-layout#servicioAlCliente",
       "disclosure-layout#categoriasDestacadas",
       "flex-layout.row#redes",
-      "flex-layout.row#MiniMenu",
-      "rich-text#footerCopy"
+      "flex-layout.row#MiniMenu"
     ]
   },
   "flex-layout.row#footerM0": {
@@ -614,7 +613,7 @@
   },
   "rich-text#foo30": {
     "props": {
-      "text": "[Vereda Canavita Kn 20.5 - Autopista Norte](#)",
+      "text": "[Vereda Canavita Km 20.5 - Autopista Norte](#)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -623,7 +622,7 @@
   },
   "rich-text#foo40": {
     "props": {
-      "text": "[Tocicancipá, Cundinamarca](#)",
+      "text": "[Tocancipá, Cundinamarca](#)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -664,19 +663,10 @@
   /*MENU HORIZONTAL FOOTER*/
 
   "flex-layout.row#MiniMenu": {
-    "children": ["rich-text#menuFoo1", "rich-text#menuFoo2", "rich-text#menuFoo3", "rich-text#menuFoo4", "rich-text#menuFoo5", "rich-text#menuFoo6"],
+    "children": ["rich-text#menuFoo2", "rich-text#menuFoo3", "rich-text#menuFoo6"],
     "props": {
       "blockClass": "footerconMenu",
       "colSizing": "auto"
-    }
-  },
-  "rich-text#menuFoo1": {
-    "props": {
-      "text": "[Imprint](#)",
-      "textAlignment": "left",
-      "font": "t-heading-3",
-      "textPosition": "left",
-      "blockClass": "footerMenuItem"
     }
   },
   "rich-text#menuFoo2": {
@@ -697,24 +687,6 @@
       "blockClass": "footerMenuItem"
     }
   },
-  "rich-text#menuFoo4": {
-    "props": {
-      "text": "[Condiciones de Venta](#)",
-      "textAlignment": "left",
-      "font": "t-heading-3",
-      "textPosition": "left",
-      "blockClass": "footerMenuItem"
-    }
-  },
-  "rich-text#menuFoo5": {
-    "props": {
-      "text": "[Condiciones de Compra](#)",
-      "textAlignment": "left",
-      "font": "t-heading-3",
-      "textPosition": "left",
-      "blockClass": "footerMenuItem"
-    }
-  },
   "rich-text#menuFoo6": {
     "props": {
       "text": "[Aviso de privacidad](#)",
@@ -722,16 +694,6 @@
       "font": "t-heading-3",
       "textPosition": "left",
       "blockClass": "footerMenuItem"
-    }
-  },
-
-  "rich-text#footerCopy": {
-    "props": {
-      "text": "[copyright @2021 ePartner - Pataforma vtex](#)",
-      "textAlignment": "center",
-      "font": "t-heading-3",
-      "textPosition": "center",
-      "blockClass": "footercopyright"
     }
   },
 
@@ -743,12 +705,13 @@
       "blockClass": "footerredes"
     }
   },
+
   "info-card#logofacebook": {
     "props": {
       "id": "texting",
       "imageUrl": "https://sikaco.vteximg.com.br/arquivos/facebook2.png",
       "isFullModeStyle": true,
-      "callToActionUrl": "#",
+      "callToActionUrl": "https://www.facebook.com/sikacolombia",
       "textPosition": "left",
       "textAlignment": "left",
       "callToActionMode": "link",
@@ -761,7 +724,7 @@
       "id": "texting",
       "imageUrl": "https://sikaco.vteximg.com.br/arquivos/bx_bxl-instagram-alt.png",
       "isFullModeStyle": true,
-      "callToActionUrl": "#",
+      "callToActionUrl": "https://www.instagram.com/sika_colombia/",
       "textPosition": "left",
       "textAlignment": "left",
       "callToActionMode": "link",
@@ -800,7 +763,7 @@
   },
   "rich-text#foo30M": {
     "props": {
-      "text": "[Vereda Canavita Kn 20.5 - Autopista Norte](#)",
+      "text": "[Vereda Canavita Km 20.5 - Autopista Norte](#)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -809,7 +772,7 @@
   },
   "rich-text#foo40M": {
     "props": {
-      "text": "[Tocicancipá, Cundinamarca](#)",
+      "text": "[Tocancipá, Cundinamarca](#)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -892,7 +855,7 @@
   },
 
   "flex-layout.row#fooMparte1-a": {
-    "children": ["rich-text#foo1-1", "rich-text#foo1-2", "rich-text#foo1-3", "rich-text#foo1-4","rich-text#foo1-6" ],
+    "children": ["rich-text#foo1-1", "rich-text#foo1-2", "rich-text#foo1-3", "rich-text#foo1-4", "rich-text#foo1-6"],
     "props": {
       "blockClass": "footerconCol"
     }
@@ -1191,7 +1154,7 @@
   },
   "rich-text#foo3-8": {
     "props": {
-      "text": "[info@paginaepartner.com](#)",
+      "text": "[sika_colombia@co.sika.com](mailto:sika_colombia@co.sika.com)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -1199,102 +1162,85 @@
     }
   },
 
+  //------------------------------------------------------------TABBERS, ESPECIFICACIONES
 
-
-
-
-
-
-
-
-  
-//------------------------------------------------------------TABBERS, ESPECIFICACIONES
-  
-       //Tabbers-mobile
-       "disclosure-layout#SobreNosotros": {
-        "children": ["disclosure-trigger#SobreNosotros", "disclosure-content#SobreNosotros"],
-        "props": {
-          "animated": true,
-          "blockClass":"footerMobilePart2"
-        }
-      },
-      "disclosure-trigger#SobreNosotros": {
-        "children": ["rich-text#SobreNosotros"],
-        "props": {
-          "blockClass":"footerMobilePart2"
-        }
-      },
-      "disclosure-content#SobreNosotros": {
-        "children": [
-          "flex-layout.row#footertab1"
-        ],
-        "props": {
-          "blockClass": "footerMobilePart2"
-        }
-      },
-      "rich-text#SobreNosotros": {
-        "props": {
-          "text": "Sobre Nosotros",
-          "blockClass": "footerMobilePart2"
-        }
-      },
-      //Tabbers-mobile2
-      "disclosure-layout#servicioAlCliente": {
-        "children": ["disclosure-trigger#servicioAlCliente", "disclosure-content#servicioAlCliente"],
-        "props": {
-          "animated": true,
-          "blockClass":"footerMobilePart2"
-        }
-      },
-      "disclosure-trigger#servicioAlCliente": {
-        "children": ["rich-text#servicioAlCliente"],
-        "props": {
-          "blockClass":"footerMobilePart2"
-        }
-      },
-      "disclosure-content#servicioAlCliente": {
-        "children": [
-          "flex-layout.row#footertab2"
-        ],
-        "props":{
-          "blockClass": "footerMobilePart2"
-        }
-      },
-      "rich-text#servicioAlCliente": {
-        "props": {
-          "text": "Servivcio Al Cliente",
-          "blockClass": "footerMobilePart2"
-        }
-      },      
-      //Tabbers-mobile3
-      "disclosure-layout#categoriasDestacadas": {
-        "children": ["disclosure-trigger#categoriasDestacadas", "disclosure-content#categoriasDestacadas"],
-        "props": {
-          "animated": true,
-          "blockClass":"footerMobilePart2"
-        }
-      },
-      "disclosure-trigger#categoriasDestacadas": {
-        "children": ["rich-text#categoriasDestacadas"],
-        "props": {
-          "blockClass":"footerMobilePart2"
-        }
-      },
-      "disclosure-content#categoriasDestacadas": {
-        "children": [
-          "flex-layout.row#footertab3"
-        ],
-        "props": {
-          "tabId": "InformacioncategoriasDestacadas",
-          "blockClass": "footerMobilePart2"
-        }
-      },
-      "rich-text#categoriasDestacadas": {
-        "props": {
-          "text": "Recomendados para",
-          "blockClass": "footerMobilePart2"
-        }
-      }
-
-
+  //Tabbers-mobile
+  "disclosure-layout#SobreNosotros": {
+    "children": ["disclosure-trigger#SobreNosotros", "disclosure-content#SobreNosotros"],
+    "props": {
+      "animated": true,
+      "blockClass": "footerMobilePart2"
+    }
+  },
+  "disclosure-trigger#SobreNosotros": {
+    "children": ["rich-text#SobreNosotros"],
+    "props": {
+      "blockClass": "footerMobilePart2"
+    }
+  },
+  "disclosure-content#SobreNosotros": {
+    "children": ["flex-layout.row#footertab1"],
+    "props": {
+      "blockClass": "footerMobilePart2"
+    }
+  },
+  "rich-text#SobreNosotros": {
+    "props": {
+      "text": "Sobre Nosotros",
+      "blockClass": "footerMobilePart2"
+    }
+  },
+  //Tabbers-mobile2
+  "disclosure-layout#servicioAlCliente": {
+    "children": ["disclosure-trigger#servicioAlCliente", "disclosure-content#servicioAlCliente"],
+    "props": {
+      "animated": true,
+      "blockClass": "footerMobilePart2"
+    }
+  },
+  "disclosure-trigger#servicioAlCliente": {
+    "children": ["rich-text#servicioAlCliente"],
+    "props": {
+      "blockClass": "footerMobilePart2"
+    }
+  },
+  "disclosure-content#servicioAlCliente": {
+    "children": ["flex-layout.row#footertab2"],
+    "props": {
+      "blockClass": "footerMobilePart2"
+    }
+  },
+  "rich-text#servicioAlCliente": {
+    "props": {
+      "text": "Servivcio Al Cliente",
+      "blockClass": "footerMobilePart2"
+    }
+  },
+  //Tabbers-mobile3
+  "disclosure-layout#categoriasDestacadas": {
+    "children": ["disclosure-trigger#categoriasDestacadas", "disclosure-content#categoriasDestacadas"],
+    "props": {
+      "animated": true,
+      "blockClass": "footerMobilePart2"
+    }
+  },
+  "disclosure-trigger#categoriasDestacadas": {
+    "children": ["rich-text#categoriasDestacadas"],
+    "props": {
+      "blockClass": "footerMobilePart2"
+    }
+  },
+  "disclosure-content#categoriasDestacadas": {
+    "children": ["flex-layout.row#footertab3"],
+    "props": {
+      "tabId": "InformacioncategoriasDestacadas",
+      "blockClass": "footerMobilePart2"
+    }
+  },
+  "rich-text#categoriasDestacadas": {
+    "props": {
+      "text": "Recomendados para",
+      "blockClass": "footerMobilePart2"
+    }
+  }
 }

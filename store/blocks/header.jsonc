@@ -57,7 +57,7 @@
       "fullWidth": false,
       "blockClass": "headerC"
     },
-    "children": ["flex-layout.col#logo-desktop", "flex-layout.col#headerbuscador"/*, "rich-text#misPedidos"*/, "login", "minicart.v2"]
+    "children": ["flex-layout.col#logo-desktop", "flex-layout.col#headerbuscador" /*, "rich-text#misPedidos"*/, "login", "minicart.v2"]
   },
   "flex-layout.col#search-bar": {
     "props": {
@@ -120,6 +120,7 @@
       "menu-item#Category2",
       "menu-item#Category4",*/
       "menu-item#Category5",
+      "menu-item#Category6",
       "rich-text#titles-botonMenu1",
       "rich-text#titles-botonMenu2"
     ],
@@ -205,6 +206,7 @@
     },
     "blocks": ["vtex.menu@2.x:submenu#shop4"]
   },
+
   "menu-item#Category5": {
     "props": {
       "id": "menu-item-categoria",
@@ -1046,7 +1048,7 @@
       "fullWidth": false,
       "blockClass": "headerCate"
     },
-    "children": ["rich-text#Category1", "rich-text#Category2", "rich-text#Category3"/*, "rich-text#Category4" */]
+    "children": ["rich-text#Category1", "rich-text#Category2", "rich-text#Category3" /*, "rich-text#Category4" */]
   },
   "rich-text#Category1": {
     "props": {
@@ -1110,7 +1112,7 @@
     "children": [/*"flex-layout.row#contactoM",*/ "flex-layout.row#mobile", "flex-layout.row#PreMobile"]
   },
   "flex-layout.row#mobile": {
-    "children": ["logo", "modal-trigger#1localizador","login" /*, "rich-text#misPedidos"*/, "minicart.v2"],
+    "children": ["logo", "modal-trigger#1localizador", "login" /*, "rich-text#misPedidos"*/, "minicart.v2"],
     "props": {
       "blockClass": "main-header-mobile",
       "verticalAlign": "center",
@@ -1118,8 +1120,8 @@
       "preventVerticalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": false,
-      "closeOnOutsideClick" : true,
-      "updateOnFilterSelectionOnMobile" : true
+      "closeOnOutsideClick": true,
+      "updateOnFilterSelectionOnMobile": true
     }
   },
   //menu mobile
@@ -1146,7 +1148,7 @@
     "props": {
       "blockClass": "menuDrawer"
     },
-    "children": ["menu-item#CONSTRUCCION", "rich-text#titles-botonMenu1", "rich-text#titles-botonMenu2"]
+    "children": ["menu-item#CONSTRUCCION", "menu-item#OBRANUEVA", "rich-text#titles-botonMenu1", "rich-text#titles-botonMenu2"]
   },
   //menu Mobile
   "menu-item#movilidad": {
@@ -2886,7 +2888,7 @@
   // },
   //******************* prueba location avalinsjns *******************
   "location-context": {
-    "children": ["modal-trigger#location-availability"/*, "flex-layout.row#location-availability"*/],
+    "children": ["modal-trigger#location-availability" /*, "flex-layout.row#location-availability"*/],
     "props": {
       "blockClass": "localizador-header--modal"
     }

@@ -1,0 +1,284 @@
+{
+  // * DESKTOP
+  "menu-item#Category6": {
+    "props": {
+      "id": "menu-item-categoria-2",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Categoría",
+        "text": "OBRA NUEVA Y REMODELACIÓN"
+      },
+      "blockClass": "MovilidadMenu"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop-2"]
+  },
+
+  // Submenu container
+  "vtex.menu@2.x:submenu#shop-2": {
+    "children": ["vtex.menu@2.x:menu#submenushop-2"],
+    "props": {
+      "blockClass": ["SubMenus", "submenu5"]
+    }
+  },
+  "vtex.menu@2.x:menu#submenushop-2": {
+    "children": ["flex-layout.col#submenu12"],
+    "props": {
+      "blockclass": "Submenus"
+    }
+  },
+
+  // Submenu col
+  "flex-layout.col#submenu12": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1Mayor"
+    },
+    "children": ["flex-layout.row#submenu111"]
+  },
+  // Submenu Row
+  "flex-layout.row#submenu111": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": ["flex-layout.col#submenu111"]
+  },
+  "flex-layout.col#submenu111": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenu0"]
+    },
+    "children": [
+      "rich-text#titles-submenu111",
+      "rich-text#titles-submenu112",
+      "rich-text#titles-submenu113",
+      "rich-text#titles-submenu114",
+      "rich-text#titles-submenu115",
+      "rich-text#titles-submenu116",
+      "rich-text#titles-submenu117",
+      "rich-text#titles-submenu118"
+    ]
+  },
+
+  // Submenu links
+  "rich-text#titles-submenu111": {
+    "props": {
+      "text": "[Baño](/139?map=productClusterIds&order=)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu112": {
+    "props": {
+      "text": "[Cocina](/140?map=productClusterIds&order=)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu113": {
+    "props": {
+      "text": "[Habitación](/141?map=productClusterIds&order=)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu114": {
+    "props": {
+      "text": "[Sala](/142?map=productClusterIds&order=)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu115": {
+    "props": {
+      "text": "[Garaje](/143?map=productClusterIds&order=)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu116": {
+    "props": {
+      "text": "[Bodega](/144?map=productClusterIds&order=)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu117": {
+    "props": {
+      "text": "[Balcones y Terrazas](/145?map=productClusterIds&order=)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu118": {
+    "props": {
+      "text": "[Piscinas](/146?map=productClusterIds&order=)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+
+  // * MOBILE
+  "menu-item#OBRANUEVA": {
+    "props": {
+      "id": "menu-item-custom-sale-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Obra nueva y remodelación"
+      },
+      "blockClass": "department"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#DEPTO111"]
+  },
+  "vtex.menu@2.x:submenu#DEPTO111": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu-CAT111"]
+  },
+  "flex-layout.row#menu-CAT111": {
+    "children": ["flex-layout.col#menu-CAT111"]
+  },
+  "flex-layout.col#menu-CAT111": {
+    "children": ["vtex.menu@2.x:menu#CAT111"]
+  },
+  "vtex.menu@2.x:menu#CAT111": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#obra1", "menu-item#obra2", "menu-item#obra3", "menu-item#obra4", "menu-item#obra5", "menu-item#obra6", "menu-item#obra7", "menu-item#obra8"]
+  },
+  "menu-item#obra1": {
+    "props": {
+      "id": "menu-item-faq-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/139?map=productClusterIds&order=",
+        "noFollow": true,
+        "tagTitle": "Baño",
+        "text": "Baño"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  "menu-item#obra2": {
+    "props": {
+      "id": "menu-item-faq-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/140?map=productClusterIds&order=",
+        "noFollow": true,
+        "tagTitle": "Cocina",
+        "text": "Cocina"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  "menu-item#obra3": {
+    "props": {
+      "id": "menu-item-faq-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/141?map=productClusterIds&order=",
+        "noFollow": true,
+        "tagTitle": "Habitación",
+        "text": "Habitación"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  "menu-item#obra4": {
+    "props": {
+      "id": "menu-item-faq-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/142?map=productClusterIds&order=",
+        "noFollow": true,
+        "tagTitle": "Sala",
+        "text": "Sala"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  "menu-item#obra5": {
+    "props": {
+      "id": "menu-item-faq-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/143?map=productClusterIds&order=",
+        "noFollow": true,
+        "tagTitle": "Garaje",
+        "text": "Garaje"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  "menu-item#obra6": {
+    "props": {
+      "id": "menu-item-faq-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/144?map=productClusterIds&order=",
+        "noFollow": true,
+        "tagTitle": "Bodega",
+        "text": "Bodega"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  "menu-item#obra7": {
+    "props": {
+      "id": "menu-item-faq-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/145?map=productClusterIds&order=",
+        "noFollow": true,
+        "tagTitle": "Balcones y Terrazas",
+        "text": "Balcones y Terrazas"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  "menu-item#obra8": {
+    "props": {
+      "id": "menu-item-faq-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/146?map=productClusterIds&order=",
+        "noFollow": true,
+        "tagTitle": "Piscinas",
+        "text": "Piscinas"
+      },
+      "blockClass": "verTodo"
+    }
+  }
+}
