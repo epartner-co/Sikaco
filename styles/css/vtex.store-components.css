@@ -2329,7 +2329,7 @@
 }
 
 @media (max-width: 600px) {
-  .logoLink--logoImg{
+  .logoLink--logoImg {
     width: 220px;
   }
   .imageElement--BannerPagosD {
@@ -3221,6 +3221,21 @@
   height: 100%;
 }
 
-.productImagesContainer .carouselContainer .carouselGaleryThumbs{
+.productImagesContainer .carouselContainer .carouselGaleryThumbs {
   width: 15%;
+}
+
+.infoCardContainer--Logored-youtube {
+  background-size: 100% !important;
+  margin-left: -52px;
+}
+
+.infoCardContainer--Logored-linked {
+  background-size: 70% !important;
+  margin-left: -52px;
+}
+
+.infoCardCallActionContainer--Logored-youtube {
+  width: 100%;
+  display: block;
 }

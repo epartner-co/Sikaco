@@ -34,6 +34,7 @@
     display: none;
 }
 .minicartQuantityBadge {
+    font-family: 'KLAVIKA';
     top: 4px;
     font-size: 15px!important;
     width: 20px;

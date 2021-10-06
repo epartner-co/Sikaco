@@ -700,7 +700,7 @@
   /**/
 
   "flex-layout.row#redes": {
-    "children": ["rich-text#footersiguinos", "info-card#logofacebook", "info-card#logofinsta"],
+    "children": ["rich-text#footersiguinos", "info-card#logofacebook", "info-card#logofinsta", "info-card#logofyoutube", "info-card#logofLinkedin"],
     "props": {
       "blockClass": "footerredes"
     }
@@ -725,6 +725,32 @@
       "imageUrl": "https://sikaco.vteximg.com.br/arquivos/bx_bxl-instagram-alt.png",
       "isFullModeStyle": true,
       "callToActionUrl": "https://www.instagram.com/sika_colombia/",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "Logored-insta",
+      "width": "11%"
+    }
+  },
+  "info-card#logofyoutube": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/youtube-footer-logo.png",
+      "isFullModeStyle": true,
+      "callToActionUrl": "https://www.youtube.com/c/SikaColombiaSAS",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "Logored-insta",
+      "width": "11%"
+    }
+  },
+  "info-card#logofLinkedin": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/linkedin-footer-logo.png",
+      "isFullModeStyle": true,
+      "callToActionUrl": "https://www.linkedin.com/company/sika/life/c8f68c77-e204-4282-8109-5989e3f00051/",
       "textPosition": "left",
       "textAlignment": "left",
       "callToActionMode": "link",
