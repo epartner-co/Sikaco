@@ -1104,7 +1104,7 @@
     "props": {
       "id": "texting",
       "imageUrl": "https://sikaco.myvtex.com/arquivos/Rectangle%2073.png",
-      "headline": "SUSCRIBETE A NUESTRO NEWSLETTER",
+      "headline": "SUSCRIBASE A NUESTRO NEWSLETTER",
       "isFullModeStyle": true,
       "callToActionUrl": "#",
       "textPosition": "left",

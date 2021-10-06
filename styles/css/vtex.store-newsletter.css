@@ -42,7 +42,7 @@
     height: 10px;
 }*/
 .newsletterForm::before {
-  content: 'Regístrate y recíbe todos los beneficios 25% - 50% de DESCUENTO';
+  content: 'Registrese y reciba todos los beneficios 25% - 50% de DESCUENTO';
   width: 100%;
   text-align: center;
   font-family: 'ROBOTO';
