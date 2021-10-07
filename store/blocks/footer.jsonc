@@ -11,7 +11,7 @@
       "rich-text#footitle0M",
       "rich-text#foo30M",
       "rich-text#foo40M",
-      "rich-text#foo410M",
+      /*"rich-text#foo410M",*/
       "disclosure-layout#SobreNosotros",
       "disclosure-layout#servicioAlCliente",
       "disclosure-layout#categoriasDestacadas",
@@ -318,7 +318,7 @@
     }
   },
   "flex-layout.col#footer5SUB": {
-    "children": ["rich-text#foo3-1", /* "rich-text#foo3-2"*/ "rich-text#foo3-4", "rich-text#foo3-5", "rich-text#foo3-6", "rich-text#foo3-7", "rich-text#foo3-8"],
+    "children": ["rich-text#foo3-1", /* "rich-text#foo3-2"*/ "rich-text#foo3-4", "rich-text#foo3-5", "rich-text#foo3-6", /*"rich-text#foo3-7",*/ "rich-text#foo3-8"],
     "props": {
       "blockClass": "footerCSub"
     }
@@ -597,7 +597,7 @@
   /*PRIEMRA COLUMNA FOOTER PARTE A*/
 
   "flex-layout.col#footer0": {
-    "children": ["info-card#logofooter", "rich-text#footitle0", "rich-text#foo30", "rich-text#foo40", "rich-text#foo410"],
+    "children": ["info-card#logofooter", "rich-text#footitle0", "rich-text#foo30", "rich-text#foo40" /*, "rich-text#foo410"*/],
     "props": {
       "blockClass": "footerC"
     }
@@ -741,7 +741,7 @@
       "textPosition": "left",
       "textAlignment": "left",
       "callToActionMode": "link",
-      "blockClass": "Logored-insta",
+      "blockClass": ["Logored-insta", "Logored-youtube"],
       "width": "11%"
     }
   },
@@ -754,7 +754,7 @@
       "textPosition": "left",
       "textAlignment": "left",
       "callToActionMode": "link",
-      "blockClass": "Logored-insta",
+      "blockClass": ["Logored-insta", "Logored-linkedin"],
       "width": "11%"
     }
   },
@@ -772,7 +772,7 @@
   /*footer mobile logo y dirección*/
 
   "flex-layout.col#footer0M": {
-    "children": ["info-card#logofooterM", "rich-text#footitle0M", "rich-text#foo30M", "rich-text#foo40M", "rich-text#foo410M"],
+    "children": ["info-card#logofooterM", "rich-text#footitle0M", "rich-text#foo30M", "rich-text#foo40M" /*, "rich-text#foo410M"*/],
     "props": {
       "blockClass": "footerCParteAM"
     }
@@ -944,7 +944,7 @@
     }
   },
   "flex-layout.row#fooMparte3-b": {
-    "children": ["rich-text#foo3-6", "rich-text#foo3-7", "rich-text#foo3-8"],
+    "children": ["rich-text#foo3-6" /*, "rich-text#foo3-7"*/, "rich-text#foo3-8"],
     "props": {
       "blockClass": "footerconCol"
     }

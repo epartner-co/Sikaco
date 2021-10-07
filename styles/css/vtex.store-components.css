@@ -2319,6 +2319,21 @@
   margin: 5% 0 0 auto;
 }
 
+.infoCardContainer--Logored-youtube {
+  background-size: 100% !important;
+  margin-left: -52px;
+}
+
+.infoCardContainer--Logored-linked {
+  background-size: 70% !important;
+  margin-left: -52px;
+}
+
+.infoCardCallActionContainer--Logored-youtube {
+  width: 100%;
+  display: block;
+}
+
 @media (max-width: 600px) {
   .infoCardContainer--bannernewws {
     background: url('https://sikaco.vteximg.com.br/arquivos/Rectangle%20105.png') !important;
@@ -2983,6 +2998,13 @@
   .infoCardTextContainer--bannerInformativo5 {
     width: 94%;
   }
+  .infoCardContainer--Logored-youtube {
+    transform: translateX(-55px);
+    background-size: 50% !important;
+  }
+  .infoCardContainer--Logored-linkedin {
+    transform: translateX(-113px);
+  }
 }
 
 .infoCardImage--segundo {
@@ -3223,19 +3245,4 @@
 
 .productImagesContainer .carouselContainer .carouselGaleryThumbs {
   width: 15%;
-}
-
-.infoCardContainer--Logored-youtube {
-  background-size: 100% !important;
-  margin-left: -52px;
-}
-
-.infoCardContainer--Logored-linked {
-  background-size: 70% !important;
-  margin-left: -52px;
-}
-
-.infoCardCallActionContainer--Logored-youtube {
-  width: 100%;
-  display: block;
 }
