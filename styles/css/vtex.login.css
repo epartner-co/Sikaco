@@ -130,9 +130,6 @@ h3 {
 }
 
 @media (max-width: 600px) {
-  .buttonLink {
-    transform: translateY(-35px);
-  }
   .buttonLink :global(.vtex-button__label) {
     padding: 0 5px 0 0px;
   }

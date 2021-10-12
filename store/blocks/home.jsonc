@@ -55,7 +55,7 @@
       "textAlignment": "left",
       "callToActionMode": "link",
       "blockClass": "Mio",
-      "subhead": "construyendo confianza desde 1951"
+      "subhead": "Construyendo confianza desde 1951"
     }
   },
   "info-card#banner2": {
@@ -69,7 +69,7 @@
       "textAlignment": "left",
       "callToActionMode": "link",
       "blockClass": "Mio",
-      "subhead": "construyendo confianza desde 1951"
+      "subhead": "Construyendo confianza desde 1951"
     }
   },
   "info-card#banner3": {
@@ -83,7 +83,7 @@
       "textAlignment": "left",
       "callToActionMode": "link",
       "blockClass": "Mio",
-      "subhead": "construyendo confianza desde 1951"
+      "subhead": "Construyendo confianza desde 1951"
     }
   },
   "info-card#banner4": {
@@ -97,7 +97,7 @@
       "textAlignment": "left",
       "callToActionMode": "link",
       "blockClass": "Mio",
-      "subhead": "construyendo confianza desde 1951"
+      "subhead": "Construyendo confianza desde 1951"
     }
   },
 
@@ -602,7 +602,7 @@
     }
   },
   "tab-list#home": {
-    "children": ["tab-list.item#home2", "tab-list.item#home3", "tab-list.item#home4"],
+    "children": ["tab-list.item#home2", "tab-list.item#home3" /*"tab-list.item#home4"*/],
     "props": {
       "blockClass": "tabbersHome"
     }
@@ -616,7 +616,7 @@
   "tab-list.item#home3": {
     "props": {
       "tabId": "home3",
-      "label": "Obra nueva"
+      "label": "Obra nueva y Remodelación"
     }
   },
   "tab-list.item#home4": {
@@ -626,7 +626,7 @@
     }
   },
   "tab-content#home": {
-    "children": ["tab-content.item#home2", "tab-content.item#home3", "tab-content.item#home4"]
+    "children": ["tab-content.item#home2", "tab-content.item#home3" /*"tab-content.item#home4"*/]
   },
   "tab-content.item#home2": {
     "children": ["info-card#tap2", "shelf#demo4"],
@@ -666,7 +666,7 @@
     "props": {
       "id": "tap",
       "imageUrl": "https://sikaco.vteximg.com.br/arquivos/estandar.png",
-      "headline": "OBRA NUEVA",
+      "headline": "OBRA NUEVA Y REMODELACIÓN",
       "isFullModeStyle": false,
       "callToActionUrl": "/hogar",
       "textPosition": "center",
@@ -805,7 +805,7 @@
       "textAlignment": "left",
       "callToActionMode": "link",
       "blockClass": "Mio",
-      "subhead": "construyendo confianza desde 1951"
+      "subhead": "Construyendo confianza desde 1951"
     }
   },
   "info-card#banner2Mobile": {
@@ -819,7 +819,7 @@
       "textAlignment": "left",
       "callToActionMode": "link",
       "blockClass": "Mio",
-      "subhead": "construyendo confianza desde 1951"
+      "subhead": "Construyendo confianza desde 1951"
     }
   },
   "info-card#banner3Mobile": {
@@ -833,7 +833,7 @@
       "textAlignment": "left",
       "callToActionMode": "link",
       "blockClass": "Mio",
-      "subhead": "construyendo confianza desde 1951"
+      "subhead": "Construyendo confianza desde 1951"
     }
   },
   "info-card#banner4Mobile": {
@@ -847,7 +847,7 @@
       "textAlignment": "left",
       "callToActionMode": "link",
       "blockClass": "Mio",
-      "subhead": "construyendo confianza desde 1951"
+      "subhead": "Construyendo confianza desde 1951"
     }
   },
   /*CHAT*/
@@ -1025,7 +1025,7 @@
   "info-card#NewletterBaner": {
     "props": {
       "id": "texting",
-     "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%20105.png",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%20105.png",
       "headline": "SUSCRIBIRSE A NUESTRO NEWSLETTER",
       "isFullModeStyle": true,
       "callToActionUrl": "#",

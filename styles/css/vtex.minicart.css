@@ -78,9 +78,6 @@
   padding-right: 0 !important;
 }
 @media (max-width: 600px) {
-  .minicartContainer {
-    transform: translateY(-26px);
-  }
   .minicartQuantityBadge {
     right: -26px !important;
   }

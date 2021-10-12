@@ -427,7 +427,7 @@
   "rich-text#titles-submenu1": {
     "props": {
       "text": "[Aditivos y curadores](/construcción/Aditivos-y-curadores)",
-      "blockClass": "tituloSubemnu"
+      "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu2": {
@@ -459,7 +459,7 @@
   "rich-text#titles-submenu6": {
     "props": {
       "text": "[Mamposteria](/construcción/Mamposteria)",
-      "blockClass": "tituoSubmenu"
+      "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu7": {
@@ -485,7 +485,7 @@
   "rich-text#titles-submenu11": {
     "props": {
       "text": "[Proteccion y acabados para fachadas](/construcción/Proteccion-y-acabados-para-fachadas)",
-      "blockClass": "tituoSubmenu"
+      "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu12": {
@@ -511,7 +511,7 @@
   "rich-text#titles-submenu17": {
     "props": {
       "text": "[Adhesivos de enchape](/construcción/Adhesivos-de-en-chape)",
-      "blockClass": "tituoSubmenu"
+      "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu18": {
@@ -536,7 +536,7 @@
   "rich-text#titles-submenu21": {
     "props": {
       "text": "[Morteros y grouts de Reparación](/construcción/Morteros-y-grouts-de-Reparación)",
-      "blockClass": "tituoSubmenu"
+      "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu22": {
@@ -568,7 +568,7 @@
   "rich-text#titles-submenu21-6": {
     "props": {
       "text": "[Recubrimientos especializados para muros y pisos](/construcción/Recubrimientos-especializados-para-muros-y-pisos)",
-      "blockClass": "tituoSubmenu"
+      "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu22-6": {
@@ -1048,7 +1048,7 @@
       "fullWidth": false,
       "blockClass": "headerCate"
     },
-    "children": ["rich-text#Category1", "rich-text#Category2", "rich-text#Category3" /*, "rich-text#Category4" */]
+    "children": ["rich-text#Category1", "rich-text#Category2"/*"rich-text#Category3" /*, "rich-text#Category4" */]
   },
   "rich-text#Category1": {
     "props": {
@@ -1062,7 +1062,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[Obra nueva](#)",
+      "text": "[Obra nueva y remodelación](/141)",
       "blockClass": "CategoriaPrin2"
     }
   },
