@@ -131,7 +131,7 @@
   //botone del menu
   "rich-text#titles-botonMenu1": {
     "props": {
-      "text": "[LO NUEVO](/lo-nuevo)",
+      "text": "[LO NUEVO](/147?map=productClusterIds&order=)",
       "blockClass": "botones1Menu"
     }
   },
@@ -388,7 +388,7 @@
       "verticalAlign": "center",
       "blockClass": ["submenu1", "submenu0"]
     },
-    "children": ["rich-text#titles-submenu11", "rich-text#titles-submenu12", "rich-text#titles-submenu13", "rich-text#titles-submenu14"]
+    "children": ["rich-text#titles-submenu11", "rich-text#titles-submenu12", /*"rich-text#titles-submenu13",*/ "rich-text#titles-submenu14"]
   },
   "flex-layout.col#submenu4": {
     "props": {
@@ -404,7 +404,7 @@
       "verticalAlign": "center",
       "blockClass": ["submenu1", "submenu0"]
     },
-    "children": ["rich-text#titles-submenu21", "rich-text#titles-submenu22", "rich-text#titles-submenu23", "rich-text#titles-submenu24", "rich-text#titles-submenu25"]
+    "children": ["rich-text#titles-submenu21", "rich-text#titles-submenu22", "rich-text#titles-submenu23", "rich-text#titles-submenu24" /*, "rich-text#titles-submenu25"*/]
   },
   "flex-layout.col#submenu5-6": {
     "props": {
@@ -432,25 +432,25 @@
   },
   "rich-text#titles-submenu2": {
     "props": {
-      "text": "[Aditivos para cementos](/construcción/Aditivos-para-cementos)",
+      "text": "[Aditivos para cementos](/adhitivos%20para%20cementos?_q=Adhitivos%20para%20cementos&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu3": {
     "props": {
-      "text": "[Aditivos para morteros](/construcción/Aditivos-para-morteros)",
+      "text": "[Aditivos para morteros](/aditivos%20mortero?_q=aditivos%20mortero&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu4": {
     "props": {
-      "text": "[ Aditivos y adiciones para concreto](/construcción/Aditivos-y-adiciones-para-concreto)",
+      "text": "[ Aditivos y adiciones para concreto](/adhitivos%20para%20concreto?_q=Adhitivos%20para%20concreto&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu5": {
     "props": {
-      "text": "[ Curadores y desencofrantes](/construcción/Curadores-y-desencofrantes)",
+      "text": "[ Curadores y desencofrantes](/construccion/aditivos-y-curadores?initialMap=c&initialQuery=construcción&map=category-1,category-2)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -464,19 +464,19 @@
   },
   "rich-text#titles-submenu7": {
     "props": {
-      "text": "[Pega de mampostería](/construcción/Pega-de-mampostería)",
+      "text": "[Pega de mampostería](/pega%20de%20mampostería?_q=Pega%20de%20mampostería&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu8": {
     "props": {
-      "text": "[Grout de mampostería](/construcción/Grout-de-mampostería)",
+      "text": "[Grout de mampostería](/mamposteria?initialMap=c,c&initialQuery=construccion/adhesivos-y-sellantes&map=category-2)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu9": {
     "props": {
-      "text": "[Pañete de Mampostería](/construcción/Pañete-de-Mampostería)",
+      "text": "[Pañete de Mampostería](/mamposteria?initialMap=c,c&initialQuery=construccion/adhesivos-y-sellantes&map=category-2)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -490,7 +490,7 @@
   },
   "rich-text#titles-submenu12": {
     "props": {
-      "text": "[Repelentes para fachadas de ladrillo](/construcción/Repelentes-para-fachadas-de-ladrillo)",
+      "text": "[Repelentes para fachadas de ladrillo](/fachadas%20ladrillos?_q=fachadas%20ladrillos&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -502,7 +502,7 @@
   },
   "rich-text#titles-submenu14": {
     "props": {
-      "text": "[Sistemas especiales para fachadas](/construcción/Sistemas-especiales-para-fachadas)",
+      "text": "[Sistemas especiales para fachadas](/sistemas%20para%20fachadas?_q=sistemas%20para%20fachadas&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -510,50 +510,50 @@
   //COLUMNA CUATRO
   "rich-text#titles-submenu17": {
     "props": {
-      "text": "[Adhesivos de enchape](/construcción/Adhesivos-de-en-chape)",
+      "text": "[Adhesivos de enchape](/adhesivo%20enchape?_q=Adhesivo%20enchape&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu18": {
     "props": {
-      "text": "[Adhesivos para enchape](/construcción/Adhesivos-para-enchape)",
+      "text": "[Adhesivos para enchape](/adhesivo%20para%20enchape?_q=Adhesivo%20para%20enchape&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu19": {
     "props": {
-      "text": "[Boquillas/fraguas](/construcción/Boquillas-fraguas)",
+      "text": "[Boquillas/fraguas](/boquillas%20fraguas?_q=boquillas%20fraguas&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu20": {
     "props": {
-      "text": "[Boquillas epoxicas](/construcción/Boquillas-epoxicas)",
+      "text": "[Boquillas epoxicas](/boquillas%20epoxicas?_q=boquillas%20epoxicas&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   //columna cinco
   "rich-text#titles-submenu21": {
     "props": {
-      "text": "[Morteros y grouts de Reparación](/construcción/Morteros-y-grouts-de-Reparación)",
+      "text": "[Morteros y grouts de Reparación](/moreteros%20reparacion?_q=Moreteros%20reparacion&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu22": {
     "props": {
-      "text": "[Grouts](/construcción/Grouts)",
+      "text": "[Grouts](/mamposteria?initialMap=c,c&initialQuery=construccion/adhesivos-y-sellantes&map=category-2)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu23": {
     "props": {
-      "text": "[Morteros Estructurales](/construcción/Morteros-Estructurales)",
+      "text": "[Morteros Estructurales](/morteros%20estructurales?_q=morteros%20estructurales&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu24": {
     "props": {
-      "text": "[Morteros de nivelación de Pisos](/construcción/Morteros-de-nivelación-de-Pisos)",
+      "text": "[Morteros de nivelación de Pisos](/morteros%20piso?_q=morteros%20piso&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -573,31 +573,31 @@
   },
   "rich-text#titles-submenu22-6": {
     "props": {
-      "text": "[Recubrimientos epoxicos y Poliuretano](/construcción/Recubrimientos-epoxicos-y-Poliuretano)",
+      "text": "[Recubrimientos epoxicos y Poliuretano](/recubrimiento%20epoxico?_q=recubrimiento%20epoxico&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu23-6": {
     "props": {
-      "text": "[Recubrimientos para metal](/construcción/Recubrimientos-para-metal)",
+      "text": "[Recubrimientos para metal](/recubrimiento%20para%20metal?_q=Recubrimiento%20para%20metal&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu24-6": {
     "props": {
-      "text": "[Sistemas de pisos para canchas deportivas (sport line)](/construcción/Sistemas-de-pisos-para-canchas-deportivas)",
+      "text": "[Sistemas de pisos para canchas deportivas (sport line)](/)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu25-6": {
     "props": {
-      "text": "[Demarcación Valida](/construcción/Demarcación-Valida)",
+      "text": "[Demarcación Valida](/)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu25-7": {
     "props": {
-      "text": "[ Pinturas antibacteriales](/construcción/Pinturas-antibacteriales)",
+      "text": "[ Pinturas antibacteriales](/pinturas%20antibacteriales?_q=Pinturas%20antibacteriales&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -1048,7 +1048,7 @@
       "fullWidth": false,
       "blockClass": "headerCate"
     },
-    "children": ["rich-text#Category1", "rich-text#Category2"/*"rich-text#Category3" /*, "rich-text#Category4" */]
+    "children": ["rich-text#Category1", "rich-text#Category2" /*"rich-text#Category3" /*, "rich-text#Category4" */]
   },
   "rich-text#Category1": {
     "props": {
@@ -1062,7 +1062,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[Obra nueva y remodelación](/141)",
+      "text": "[Obra nueva y remodelación](/141?map=productClusterIds&order=)",
       "blockClass": "CategoriaPrin2"
     }
   },
@@ -2988,7 +2988,38 @@
     "children": ["flex-layout.col#menu-CAT1"]
   },
   "flex-layout.col#menu-CAT1": {
-    "children": ["vtex.menu@2.x:menu#CAT1"]
+    "props": {
+      "blockCkass": ["SubmenuMobile", "SubmenuMobile--construccion"]
+    },
+    "children": [
+      "rich-text#titles-submenu1",
+      "rich-text#titles-submenu2",
+      "rich-text#titles-submenu3",
+      "rich-text#titles-submenu4",
+      "rich-text#titles-submenu5",
+      "rich-text#titles-submenu6",
+      "rich-text#titles-submenu7",
+      "rich-text#titles-submenu8",
+      "rich-text#titles-submenu9",
+      "rich-text#titles-submenu11",
+      "rich-text#titles-submenu12",
+      "rich-text#titles-submenu14",
+      "rich-text#titles-submenu17",
+      "rich-text#titles-submenu18",
+      "rich-text#titles-submenu19",
+      "rich-text#titles-submenu20",
+      "rich-text#titles-submenu21",
+      "rich-text#titles-submenu22",
+      "rich-text#titles-submenu23",
+      "rich-text#titles-submenu24",
+      "rich-text#titles-submenu21-6",
+      "rich-text#titles-submenu22-6",
+      "rich-text#titles-submenu23-6",
+      "rich-text#titles-submenu24-6",
+      "rich-text#titles-submenu25-6",
+      "rich-text#titles-submenu25-7"
+    ]
+    // "children": ["vtex.menu@2.x:menu#CAT1"]
   },
   "vtex.menu@2.x:menu#CAT1": {
     "props": {
@@ -3034,7 +3065,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Aditivos-para-cementos",
+        "href": "/adhitivos%20para%20cementos?_q=Adhitivos%20para%20cementos&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Aditivos para cementos"
@@ -3050,7 +3081,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Aditivos-para-morteros",
+        "href": "/aditivos%20mortero?_q=aditivos%20mortero&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Aditivos para morteros"

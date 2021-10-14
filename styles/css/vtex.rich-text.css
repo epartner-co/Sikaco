@@ -330,6 +330,7 @@
 }
 .container--contenidoSubemnu {
   padding: 4px 0;
+  padding-left: 30px;
 }
 .link--contenidoSubemnu {
   transition: all 400ms;
@@ -1170,4 +1171,12 @@
 
 .heading-level-3 {
   font-family: 'KLAVIKA';
+}
+
+@media (max-width: 1050px) {
+  .link--contenidoSubemnu {
+    font-family: 'KLAVIKA';
+    font-size: 15px;
+    color: #3f3f40;
+  }
 }

@@ -4,7 +4,7 @@
   display: flex;
 }
 .availabilityHeader--localizador-header--modal::after {
-  content: 'SIKA COLOMBIA';
+  content: 'INDICAR UBICACIÓN';
   font-size: 15px;
   font-family: 'KLAVIKA';
   color: #483d3d;
