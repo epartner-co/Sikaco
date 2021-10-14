@@ -2346,7 +2346,6 @@
 @media (max-width: 600px) {
   .logoLink--logoImg {
     width: 220px;
-    margin-right: 25px;
   }
   .imageElement--BannerPagosD {
     display: none;
@@ -2360,7 +2359,6 @@
   }
   .logoImage {
     max-width: 92%;
-    margin-left: 10px;
     width: 92%;
   }
   .logoContainer--logoImg {

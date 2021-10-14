@@ -1,6 +1,6 @@
 .availabilityHeader--localizador-header--modal {
   font-size: 0;
-  margin: -10px 0 -15px 6px;
+  margin: -15px 0 -15px 6px;
   display: flex;
 }
 .availabilityHeader--localizador-header--modal::after {
