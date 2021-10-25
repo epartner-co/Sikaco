@@ -20,9 +20,9 @@
 .filterPopupTitle {
   font-size: 12px;
   display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 .orderByText {
   border: 0;
@@ -321,7 +321,7 @@
   display: flex;
   flex-wrap: wrap;
   position: relative;
-/*  margin-left: -31px;*/
+  /*  margin-left: -31px;*/
 }
 .filterItem--selected {
   width: auto;
@@ -381,13 +381,6 @@
   margin-left: 20px;
 }
 
-
-
-
-
-
-
-
 @media (max-width: 600px) {
   .galleryItem--normal {
     height: auto !important;
@@ -423,7 +416,7 @@
     margin: 5px 0;
     border-radius: 10px;
     border: none;
-   /* margin: 6px auto 0 1%;*/
+    /* margin: 6px auto 0 1%;*/
   }
   .filterPopupTitle {
     font-size: 0;
@@ -644,10 +637,10 @@
   }
   .gallery {
     margin: 0 auto !important;
-}
- .filterPopupButton .filterPopupTitle:first-child {
-  padding-right: 195px;
-}
+  }
+  .filterPopupButton .filterPopupTitle:first-child {
+    padding-right: 195px;
+  }
 }
 
 @media (min-width: 1050px) {
@@ -692,6 +685,7 @@
 .filter__container--colores-disponibles,
 .filter__container--presentacion,
 .filter__container--brand,
+.filter__container--coleccion,
 .filter__container--priceRange {
   margin-left: 0;
 }
