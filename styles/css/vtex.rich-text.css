@@ -412,10 +412,14 @@
 .paragraph--Pedidos {
   text-decoration: none;
 }
-.paragraph--CategoriaPrin1:hover .link--CategoriaPrin1,
-.paragraph--CategoriaPrin2:hover .link--CategoriaPrin2,
-.paragraph--CategoriaPrin3:hover .link--CategoriaPrin3,
-.paragraph--CategoriaPrin4:hover .link--CategoriaPrin4 {
+.paragraph--CategoriaPrin1:hover
+  .link--CategoriaPrin1,
+.paragraph--CategoriaPrin2:hover
+  .link--CategoriaPrin2,
+.paragraph--CategoriaPrin3:hover
+  .link--CategoriaPrin3,
+.paragraph--CategoriaPrin4:hover
+  .link--CategoriaPrin4 {
   font-family: 'KLAVIKA';
 }
 .paragraph--CategoriaPrin1 {
@@ -1179,4 +1183,10 @@
     font-size: 15px;
     color: #3f3f40;
   }
+}
+.wrapper--textostilo {
+  font-family: 'Klavika-light';
+  background: white;
+  border-radius: 12px;
+  margin: 0 20px;
 }
