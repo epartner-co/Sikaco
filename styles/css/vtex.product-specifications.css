@@ -181,6 +181,6 @@
     font-family: 'Klavika-light';
   }
 }
-span.vtex-product-specifications-1-x-specificationValue {
+.specificationValue {
   display: block;
 }
