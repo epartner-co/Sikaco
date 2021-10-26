@@ -114,7 +114,7 @@
         "stopOnHover": true
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "blockClass": "Cmarca",
       "showPaginationDots": "never"
     },

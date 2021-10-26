@@ -80,23 +80,23 @@
     height: auto;
   }
   .quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button-container) {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
   }
   .quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button-container) {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
   }
   .quantitySelectorStepper :global(.vtex-numeric-stepper__input) {
     max-width: 50px;
     height: 45px !important;
   }
   .quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button) {
-    margin: 7px !important;
+    margin: 5px !important;
     font-size: 20px;
   }
   .quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button) {
-    margin: 7px !important;
+    margin: 5px !important;
     font-size: 20px;
   }
 }

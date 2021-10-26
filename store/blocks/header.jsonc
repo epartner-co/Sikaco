@@ -346,7 +346,7 @@
       "verticalAlign": "center",
       "blockClass": "submenu1Mayor"
     },
-    "children": ["flex-layout.row#submenu1", "flex-layout.row#submenu22"]
+    "children": ["flex-layout.row#submenu1" /*, "flex-layout.row#submenu22"*/]
   },
   "flex-layout.row#submenu1": {
     "props": {
@@ -354,7 +354,7 @@
       "verticalAlign": "center",
       "blockClass": "submenu1"
     },
-    "children": ["flex-layout.col#submenu1", "flex-layout.col#submenu2", "flex-layout.col#submenu4"]
+    "children": ["flex-layout.col#submenu1", "flex-layout.col#submenu2" /*,"flex-layout.col#submenu4"*/]
   },
   "flex-layout.row#submenu22": {
     "props": {
@@ -371,7 +371,18 @@
       "verticalAlign": "center",
       "blockClass": ["submenu1", "submenu0"]
     },
-    "children": ["rich-text#titles-submenu1", "rich-text#titles-submenu2", "rich-text#titles-submenu3", "rich-text#titles-submenu4", "rich-text#titles-submenu5"]
+    // "children": ["rich-text#titles-submenu1", "rich-text#titles-submenu2", "rich-text#titles-submenu3", "rich-text#titles-submenu4", "rich-text#titles-submenu5"]
+    "children": [
+      "rich-text#titles-submenu1",
+      "rich-text#titles-submenu18",
+      "rich-text#titles-submenu3",
+      "rich-text#titles-submenu19",
+      "rich-text#titles-submenu2",
+      "rich-text#titles-submenu4",
+      "rich-text#titles-submenu5",
+      "rich-text#titles-submenu6",
+      "rich-text#titles-submenu7"
+    ]
   },
   //columna dos submenu
   "flex-layout.col#submenu2": {
@@ -380,7 +391,18 @@
       "verticalAlign": "center",
       "blockClass": ["submenu1", "submenu0"]
     },
-    "children": ["rich-text#titles-submenu6", "rich-text#titles-submenu7", "rich-text#titles-submenu8", "rich-text#titles-submenu9"]
+    // "children": ["rich-text#titles-submenu6", "rich-text#titles-submenu7", "rich-text#titles-submenu8", "rich-text#titles-submenu9"]
+    "children": [
+      "rich-text#titles-submenu8",
+      "rich-text#titles-submenu9",
+      "rich-text#titles-submenu21",
+      "rich-text#titles-submenu25-7",
+      "rich-text#titles-submenu22-6",
+      "rich-text#titles-submenu11",
+      "rich-text#titles-submenu12",
+      "rich-text#titles-submenu14",
+      "rich-text#titles-submenu17"
+    ]
   },
   "flex-layout.col#submenu3": {
     "props": {
@@ -426,13 +448,13 @@
   //-------------------------------------------------------------CATEGORIAS Y SUB MENU PRINCIPAL
   "rich-text#titles-submenu1": {
     "props": {
-      "text": "[Aditivos y curadores](/construcción/Aditivos-y-curadores)",
+      "text": "[Adhesivos epóxicos y anclajes](/adhesivos-epoxicos-y-anclajes/adhesivo?_q=adhesivo&fuzzy=0&initialMap=ft&initialQuery=adhesivo&map=category-2,ft&operator=and)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu2": {
     "props": {
-      "text": "[Aditivos para cementos](/adhitivos%20para%20cementos?_q=Adhitivos%20para%20cementos&map=ft)",
+      "text": "[Cinta asfáltica autoadhesiva](/cinta?_q=cinta&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -444,13 +466,13 @@
   },
   "rich-text#titles-submenu4": {
     "props": {
-      "text": "[ Aditivos y adiciones para concreto](/adhitivos%20para%20concreto?_q=Adhitivos%20para%20concreto&map=ft)",
+      "text": "[Estucos y pinturas decorativas](/estuco%20y%20pintura?_q=estuco%20y%20pintura&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu5": {
     "props": {
-      "text": "[ Curadores y desencofrantes](/construccion/aditivos-y-curadores?initialMap=c&initialQuery=construcción&map=category-1,category-2)",
+      "text": "[Impermeabilizantes acrílicos para cubiertas](/impermeabilizantes%20acrílicos%20para%20cubiertas?_q=Impermeabilizantes%20acrílicos%20para%20cubiertas&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -458,25 +480,25 @@
   //COLUMNA DOS
   "rich-text#titles-submenu6": {
     "props": {
-      "text": "[Mamposteria](/construcción/Mamposteria)",
+      "text": "[Impermeabilizantes asfálticos para cubiertas y estructuras enterradas](/impermeabilizantes%20asfálticos?_q=Impermeabilizantes%20asfálticos&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu7": {
     "props": {
-      "text": "[Pega de mampostería](/pega%20de%20mampostería?_q=Pega%20de%20mampostería&map=ft)",
+      "text": "[Impermeabilizantes de poliuretano de última generación para cubiertas](/impermeabilizantes%20de%20poliuretano?_q=Impermeabilizantes%20de%20poliuretano&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu8": {
     "props": {
-      "text": "[Grout de mampostería](/mamposteria?initialMap=c,c&initialQuery=construccion/adhesivos-y-sellantes&map=category-2)",
+      "text": "[Impermeabilizantes para humedades ascendentes](/impermeabilizantes%20para%20humedades%20?_q=Impermeabilizantes%20para%20humedades%20&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu9": {
     "props": {
-      "text": "[Pañete de Mampostería](/mamposteria?initialMap=c,c&initialQuery=construccion/adhesivos-y-sellantes&map=category-2)",
+      "text": "[Morteros impermeabilizantes](/morteros%20impermeabilizantes?_q=Morteros%20impermeabilizantes&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -490,7 +512,7 @@
   },
   "rich-text#titles-submenu12": {
     "props": {
-      "text": "[Repelentes para fachadas de ladrillo](/fachadas%20ladrillos?_q=fachadas%20ladrillos&map=ft)",
+      "text": "[Sellantes base agua](/sellante%20agua?_q=Sellante%20agua&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -502,7 +524,7 @@
   },
   "rich-text#titles-submenu14": {
     "props": {
-      "text": "[Sistemas especiales para fachadas](/sistemas%20para%20fachadas?_q=sistemas%20para%20fachadas&map=ft)",
+      "text": "[Siliconas](/siliconas?_q=Siliconas&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -510,7 +532,7 @@
   //COLUMNA CUATRO
   "rich-text#titles-submenu17": {
     "props": {
-      "text": "[Adhesivos de enchape](/adhesivo%20enchape?_q=Adhesivo%20enchape&map=ft)",
+      "text": "[Sistemas Livianos/Drywall](/drywall?_q=Drywall&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -535,7 +557,7 @@
   //columna cinco
   "rich-text#titles-submenu21": {
     "props": {
-      "text": "[Morteros y grouts de Reparación](/moreteros%20reparacion?_q=Moreteros%20reparacion&map=ft)",
+      "text": "[Morteros y concretos de reparación, grouts y endurecedores de cuarzo](/moreteros%20reparacion?_q=Moreteros%20reparacion&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -573,7 +595,7 @@
   },
   "rich-text#titles-submenu22-6": {
     "props": {
-      "text": "[Recubrimientos epoxicos y Poliuretano](/recubrimiento%20epoxico?_q=recubrimiento%20epoxico&map=ft)",
+      "text": "[Poliuretanos](/poliuretanos?initialMap=c&initialQuery=construcción&map=coleccion)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -1857,7 +1879,7 @@
         "type": "internal",
         "noFollow": true,
         "tagTitle": "About us",
-        "text": "Aditivos y curadores"
+        "text": "Aditivos y curadores 1b"
       },
       "blockClass": "category"
     }
@@ -2253,7 +2275,7 @@
         "type": "internal",
         "noFollow": true,
         "tagTitle": "About us",
-        "text": "Aditivos y curadores"
+        "text": "Aditivos y curadores 1c"
       },
       "blockClass": "category"
     }
@@ -2993,31 +3015,32 @@
     },
     "children": [
       "rich-text#titles-submenu1",
-      "rich-text#titles-submenu2",
+      "rich-text#titles-submenu18",
       "rich-text#titles-submenu3",
+      "rich-text#titles-submenu19",
+      "rich-text#titles-submenu2",
       "rich-text#titles-submenu4",
       "rich-text#titles-submenu5",
       "rich-text#titles-submenu6",
       "rich-text#titles-submenu7",
       "rich-text#titles-submenu8",
       "rich-text#titles-submenu9",
+      "rich-text#titles-submenu21",
+      "rich-text#titles-submenu25-7",
+      "rich-text#titles-submenu22-6",
       "rich-text#titles-submenu11",
       "rich-text#titles-submenu12",
       "rich-text#titles-submenu14",
-      "rich-text#titles-submenu17",
-      "rich-text#titles-submenu18",
-      "rich-text#titles-submenu19",
-      "rich-text#titles-submenu20",
-      "rich-text#titles-submenu21",
-      "rich-text#titles-submenu22",
-      "rich-text#titles-submenu23",
-      "rich-text#titles-submenu24",
-      "rich-text#titles-submenu21-6",
-      "rich-text#titles-submenu22-6",
-      "rich-text#titles-submenu23-6",
-      "rich-text#titles-submenu24-6",
-      "rich-text#titles-submenu25-6",
-      "rich-text#titles-submenu25-7"
+      "rich-text#titles-submenu17"
+
+      // "rich-text#titles-submenu20",
+      // "rich-text#titles-submenu22",
+      // "rich-text#titles-submenu23",
+      // "rich-text#titles-submenu24",
+      // "rich-text#titles-submenu21-6",
+      // "rich-text#titles-submenu23-6",
+      // "rich-text#titles-submenu24-6",
+      // "rich-text#titles-submenu25-6"
     ]
     // "children": ["vtex.menu@2.x:menu#CAT1"]
   },
@@ -3052,7 +3075,7 @@
         "type": "internal",
         "noFollow": true,
         "tagTitle": "FAQ",
-        "text": "Aditivos y curadores"
+        "text": "Aditivos y curadores 1d"
       },
       "blockClass": "category"
     }
@@ -3146,7 +3169,7 @@
         "type": "internal",
         "noFollow": true,
         "tagTitle": "FAQ",
-        "text": "Aditivos y curadores"
+        "text": "Aditivos y curadores 1a"
       },
       "blockClass": "category"
     }
