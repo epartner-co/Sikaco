@@ -15,7 +15,11 @@
     }
   },
   "search-result-layout": {
-    "blocks": ["search-result-layout.desktop", "search-result-layout.mobile", "search-not-found-layout"],
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ],
     "props": {
       "querySchema": {
         "skusFilter": "ALL",
@@ -26,7 +30,13 @@
   },
   //Construcción Desktop category
   "search-result-layout.desktop": {
-    "children": ["info-card#bannerC", "info-card#bannerMobile", "breadcrumb.search", "search-title.v2", "flex-layout.row#catego"],
+    "children": [
+      "info-card#bannerC",
+      "info-card#bannerMobile",
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#catego"
+    ],
     "props": {
       "maxItemsPerPage": 12,
       "hiddenFacets": {
@@ -40,6 +50,12 @@
             },
             {
               "name": "Cantidad"
+            },
+            {
+              "name": "Mayor información"
+            },
+            {
+              "name": "Mayor informacion"
             }
           ]
         }
@@ -47,7 +63,14 @@
     }
   },
   "search-result-layout.mobile": {
-    "children": ["info-card#bannerC", "info-card#bannerMobile", "breadcrumb.search", "search-title.v2", "flex-layout.row#filtroSeleccionado", "flex-layout.row#categoM"],
+    "children": [
+      "info-card#bannerC",
+      "info-card#bannerMobile",
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#filtroSeleccionado",
+      "flex-layout.row#categoM"
+    ],
     "props": {
       "maxItemsPerPage": 16,
       "hiddenFacets": {
@@ -61,6 +84,12 @@
             },
             {
               "name": "Cantidad"
+            },
+            {
+              "name": "Mayor información"
+            },
+            {
+              "name": "Mayor informacion"
             }
           ]
         }
@@ -90,13 +119,19 @@
   },
   //Columnas productos
   "flex-layout.row#catego": {
-    "children": ["flex-layout.col#filtros", "flex-layout.col#contenido"],
+    "children": [
+      "flex-layout.col#filtros",
+      "flex-layout.col#contenido"
+    ],
     "props": {
       "blockClass": "contenedorC"
     }
   },
   "flex-layout.row#categoM": {
-    "children": ["flex-layout.col#filtrosM", "flex-layout.col#contenido"],
+    "children": [
+      "flex-layout.col#filtrosM",
+      "flex-layout.col#contenido"
+    ],
     "props": {
       "blockClass": "contenedorC"
     }
@@ -137,7 +172,11 @@
   },
   //Contenido de productos y ordenar por
   "flex-layout.col#contenido": {
-    "children": ["flex-layout.row#contenido2", "flex-layout.row#contenido3", "search-fetch-more"],
+    "children": [
+      "flex-layout.row#contenido2",
+      "flex-layout.row#contenido3",
+      "search-fetch-more"
+    ],
     "props": {
       "width": "75%",
       "blockClass": "productC"
@@ -145,7 +184,10 @@
   },
   // Ordenar por
   "flex-layout.row#contenido2": {
-    "children": ["flex-layout.col#cantidad", "flex-layout.col#ordenar"],
+    "children": [
+      "flex-layout.col#cantidad",
+      "flex-layout.col#ordenar"
+    ],
     "props": {
       "blockClass": "barra-Ordenar"
     }
@@ -158,7 +200,9 @@
     }
   },
   "flex-layout.col#cantidad": {
-    "children": ["search-products-count-per-page"],
+    "children": [
+      "search-products-count-per-page"
+    ],
     "props": {
       "width": "65%",
       "blockClass": "itemsC"
@@ -178,7 +222,12 @@
     "blocks": ["product-summary.shelf#vitrina2"]
   },
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound", "rich-text#not-found", "shelf#not-found"]
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#notfound",
+      "rich-text#not-found",
+      "shelf#not-found"
+    ]
   },
   "rich-text#not-found": {
     "props": {
@@ -216,7 +265,9 @@
     }
   },
   "flex-layout.row#fakefilters": {
-    "children": ["breadcrumb.search#bread-filtros"],
+    "children": [
+      "breadcrumb.search#bread-filtros"
+    ],
     "props": {
       "preserveLayoutOnMobile": true,
       "fullWidth": true,
@@ -224,7 +275,10 @@
     }
   },
   "flex-layout.row#filtroSeleccionado": {
-    "children": ["rich-text#filtros-seleccionados", "breadcrumb.search#bread-filtros"],
+    "children": [
+      "rich-text#filtros-seleccionados",
+      "breadcrumb.search#bread-filtros"
+    ],
     "props": {
       "blockClass": "filtroseleccionado"
     }

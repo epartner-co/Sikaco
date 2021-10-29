@@ -193,6 +193,7 @@ h3 {
   color: #3c3c3c;
   justify-content: space-between;
   display: flex;
+  flex-direction: column;
 }
 /* .formTitle::after {
   content: '';
