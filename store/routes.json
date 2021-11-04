@@ -11,6 +11,12 @@
     "store.custom#faqs": {
       "path": "/faqs"
     },
+    "store.custom#compra": {
+      "path": "/compra"
+    },
+    "store.custom#uso": {
+      "path": "/terminos-condiciones"
+    },
     "store.storelocator": {
       "path": "/stores"
     }
