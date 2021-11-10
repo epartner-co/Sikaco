@@ -10,7 +10,7 @@
       "slider-layout#columsx4M",
       /* "rich-text#title2", */
       /* "shelf#demo2", */
-      "tab-layout#home",
+      //  "tab-layout#home",
       "flex-layout.row#home1",
       "slider-layout#home1M",
       /* "flex-layout.row#home2",*/
